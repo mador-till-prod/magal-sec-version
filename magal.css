@@ -13,10 +13,10 @@ body {
   margin: 0;
   padding: 0;
   position:fixed;
-  top:0;
+  top:-1vh;
   left:0;
   width:100%;
-  height:100%;
+  height:101%;
   /* -webkit-overflow-scrolling: touch; */
 }
 
@@ -155,7 +155,8 @@ input {
 }
 
 #check-button-1 {
-  margin-right: 23vw;
+  margin-right: 1vw;
+  display: inline-block;
 }
 
 #check-button-2 {
@@ -194,7 +195,7 @@ input {
   height: 5vw;
   width: 10;
   position: absolute;
-  top: 70vh;
+  top: 65vh;
   right: 77vw;
 }
 
@@ -207,11 +208,10 @@ input {
   margin: 1vw;
 }
 
-
 .two-images, #symbol {
-  height: 35vh;
+  height: 32vh;
   position: relative;
-  top: 12vh;
+  top: 9vh;
   left: -17vw;
   margin-bottom: 14vh;
 }
@@ -221,5 +221,47 @@ input {
 }
 
 .check-div {
-  margin-right: 23vw;
+  margin-right: 20vw;
 }
+
+#portrait{
+  display:none;
+  background-color: rgba(0, 0, 0, 0.548);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#portrait-text {
+  color: white;
+  font-size: 12vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+#land-scape{
+display:none;
+}
+#portrait{
+  display:block;
+}
+}
+
+@media screen and (max-height: 200px) {
+  #land-scape{
+  display:none;
+  }
+  #portrait-text{
+    display:none;
+  }
+  #portrait{
+    display:block;
+  }
+  }
