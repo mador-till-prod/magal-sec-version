@@ -217,11 +217,11 @@ input {
 }
 
 #symbol {
-  left: -13vw;
+  left: -11vw;
 }
 
 .check-div {
-  margin-right: 17vw;
+  margin-right: 20vw;
 }
 
 #portrait{
@@ -246,22 +246,20 @@ input {
 }
 
 @media screen and (max-width: 600px) {
-#land-scape{
-display:none;
-}
-#portrait{
-  display:block;
-}
-}
-
-@media screen and (max-height: 200px) {
   #land-scape{
   display:none;
-  }
-  #portrait-text{
-    display:none;
   }
   #portrait{
     display:block;
   }
   }
+  
+  @media screen and (max-height: 200px) {
+    #portrait-text{
+      display:none;
+    }
+    #portrait{
+      display:block;
+      background-color: rgba(0, 0, 0);
+    }
+    }
