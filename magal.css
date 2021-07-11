@@ -1,8 +1,12 @@
+@font-face {
+  font-family: rubik;
+  src: url(assets/fonts/Rubik-Regular.ttf), url(assets/fonts/Rubik-Regular.eot);
+}
 html {
   height: 100vh;
 }
 body {
-  font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-family: rubik, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   direction: rtl;
   overflow: hidden;
   margin: 0;
