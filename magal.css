@@ -2,6 +2,7 @@
   font-family: rubik;
   src: url(assets/fonts/Rubik-Regular.ttf), url(assets/fonts/Rubik-Regular.eot);
 }
+
 html {
   height: 100vh;
 }
@@ -74,7 +75,7 @@ body {
 
 input {
   position: relative;
-  left: -9%;
+  /* left: -9%; */
   margin-top: 2vh;
   margin-bottom: 2vh;
   border-radius: 2vw;
@@ -107,30 +108,6 @@ input {
   display:none;
 }
 
-#himnon{
-  height: 44vh;
-  position: relative;
-  top: 12vh;
-  left: -9vw;
-  margin-bottom: 10vh;
-}
-
-#symbol {
-  height: 54vh;
-  position: relative;
-  top: 1vh;
-  left: -4vw;
-  margin-bottom: 6vh;
-}
-
-#flag {
-  height: 51vh;
-  position: relative;
-  top: 13vh;
-  left: -4vw;
-  margin-bottom: 16vh;
-}
-
 #main-instructions {
   width: 31vw;
   /* margin: auto; */
@@ -139,16 +116,13 @@ input {
   border-radius: 2vw;
   text-align: center;
   border-color: transparent;
-margin-top: 20vh;
-    margin-right: 2vw;
-    padding: 1vw;
+  margin-top: 20vh;
+  margin-right: 2vw;
+  padding: 1vw;
 }
 
 #main-instructions-question{
   width: 47vw;
-  /* height: 14vh; */
-  /* left: 2vw; */
-  /* margin: auto; */
   margin-right: 40vw;
   margin-top: 10vh;
   font-size: 2.1vw;
@@ -162,21 +136,22 @@ margin-top: 20vh;
   display: inline-block;
   margin-right: 31vw;
   margin-left: 10vw;
+  left: -9%;
 }
 
 #enter-code-3 {
   display: inline-block;
-  right: -29vw;
+  /* right: -29vw; */
 }
 
 #enter-code-4 {
   display: inline-block;
-  right: -49vw;
+  /* right: -49vw; */
 }
 
 #enter-code-5 {
   display: inline-block;
-  right: -45vw;
+  /* right: -45vw; */
 }
 
 #check-button-1 {
@@ -189,8 +164,8 @@ margin-top: 20vh;
 
 #check-button-3, #check-button-4, #check-button-5{
   display: inline-block;
-  right: -28vw;
-position: relative;
+  /* right: -28vw; */
+  /* position: relative; */
 }
 
 #check-button-4 {
@@ -222,6 +197,7 @@ position: relative;
   top: 83vh;
   right: 77vw;
 }
+
 #logo{
   position:absolute;
   height:2vw;
@@ -229,4 +205,16 @@ position: relative;
   height: 7vw;
   bottom: 0;
   margin: 1vw;
+}
+
+.two-images, #symbol {
+  height: 44vh;
+  position: relative;
+  top: 12vh;
+  left: -17vw;
+  margin-bottom: 14vh;
+}
+
+#symbol {
+  left: -11vw;
 }
