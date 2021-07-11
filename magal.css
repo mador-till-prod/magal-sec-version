@@ -232,6 +232,7 @@ input {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 2;
 }
 
 #portrait-text {
@@ -255,13 +256,11 @@ display:none;
 }
 
 @media screen and (max-height: 200px) {
-  #land-scape{
-  display:none;
-  }
   #portrait-text{
     display:none;
   }
   #portrait{
     display:block;
+    background-color: rgba(0, 0, 0);
   }
   }
