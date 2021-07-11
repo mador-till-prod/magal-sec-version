@@ -207,8 +207,9 @@ input {
   margin: 1vw;
 }
 
+
 .two-images, #symbol {
-  height: 44vh;
+  height: 35vh;
   position: relative;
   top: 12vh;
   left: -17vw;
@@ -217,4 +218,8 @@ input {
 
 #symbol {
   left: -11vw;
+}
+
+.check-div {
+  margin-right: 23vw;
 }
