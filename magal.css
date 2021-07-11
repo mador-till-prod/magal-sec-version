@@ -1,0 +1,219 @@
+html {
+  height: 100vh;
+}
+body {
+  font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  direction: rtl;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  /* -webkit-overflow-scrolling: touch; */
+}
+
+.backgrounds {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.instructions {
+  font-weight: 700;
+  font-size: 2.1vw;
+}
+
+#code-div, .room {
+  background-image: url("assets/media/background_code.png");
+}
+
+#mission-div {
+  background-image: url("assets/media/background_with_doors_main.png");
+  /* display:none; */
+  z-index:-1
+}
+
+.buttons{
+  cursor: pointer;
+}
+
+.check{
+  height: 6vh;
+  width: 10vw;
+  background-color: rgb(167, 169, 172);
+  border-radius: 5vw;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  font-size: 2.1vw;
+}
+
+.code-door, .room-door {
+  height: 62vh;
+  bottom: 12.5vh;
+  left: 21vw;
+  position: absolute;
+}
+
+#enter-code-div {
+  position: relative;
+  top: 10vh;
+  margin-right: 4vw;
+}
+
+input {
+  position: relative;
+  left: -9%;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  border-radius: 2vw;
+  border-style: solid;
+  height: 7vh;
+}
+.main-door {
+  height: 48vh;
+  width: 15vw;
+  position: absolute;
+  background-color: transparent;
+}
+
+#door-1 {
+  bottom: 39.5vh;
+  left: 49vw;
+}
+
+#door-2 {
+  bottom: 39.5vh;
+  left: 29vw;
+}
+
+#door-3 {
+  bottom: 39.5vh;
+  left: 8vw;
+}
+
+.room {
+  display:none;
+}
+
+#himnon{
+  height: 44vh;
+  position: relative;
+  top: 12vh;
+  left: -9vw;
+  margin-bottom: 10vh;
+}
+
+#symbol {
+  height: 54vh;
+  position: relative;
+  top: 1vh;
+  left: -4vw;
+  margin-bottom: 6vh;
+}
+
+#flag {
+  height: 51vh;
+  position: relative;
+  top: 13vh;
+  left: -4vw;
+  margin-bottom: 16vh;
+}
+
+#main-instructions {
+  width: 31vw;
+  /* margin: auto; */
+  background-color: white;
+  border-style: solid;
+  border-radius: 2vw;
+  text-align: center;
+  border-color: transparent;
+  margin-top: 23vh;
+  margin-right: 2vw;
+}
+
+#main-instructions-question{
+  width: 47vw;
+  /* height: 14vh; */
+  /* left: 2vw; */
+  /* margin: auto; */
+  margin-right: 40vw;
+  margin-top: 30vh;
+  font-size: 2.1vw;
+  background-color: white;
+  border-radius: 2vw;
+  text-align: center;
+  height: 5vw;
+}
+
+#enter-code-2 {
+  display: inline-block;
+  margin-right: 31vw;
+  margin-left: 10vw;
+}
+
+#enter-code-3 {
+  display: inline-block;
+  right: -29vw;
+}
+
+#enter-code-4 {
+  display: inline-block;
+  right: -49vw;
+}
+
+#enter-code-5 {
+  display: inline-block;
+  right: -45vw;
+}
+
+#check-button-1 {
+  margin-right: 23vw;
+}
+
+#check-button-2 {
+  display: inline-block
+}
+
+#check-button-3, #check-button-4, #check-button-5{
+  display: inline-block;
+  right: -28vw;
+position: relative;
+}
+
+#check-button-4 {
+  right: -47vw;
+}
+
+#check-button-5 {
+  right: -43vw;
+}
+
+.answer {
+  display:none;
+  display: block;
+  margin: 2vw;
+  font-size: 2.3vw;
+  font-weight: 600;
+}
+
+.room-door {
+  bottom: 39.5vh;
+  left: 8vw;
+}
+
+#next-button {
+  display: none;
+  height: 5vw;
+  width: 10;
+  position: absolute;
+  top: 83vh;
+  right: 77vw;
+}
