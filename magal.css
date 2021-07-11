@@ -122,8 +122,8 @@ input {
 }
 
 #main-instructions-question{
-  width: 55vw;
-  margin-right: 37vw;
+  width: 47vw;
+  margin-right: 40vw;
   margin-top: 10vh;
   font-size: 2.1vw;
   background-color: white;
@@ -134,7 +134,7 @@ input {
 
 #enter-code-2 {
   display: inline-block;
-  margin-right: 28vw;
+  margin-right: 31vw;
   margin-left: 10vw;
   left: -9%;
 }
@@ -232,6 +232,7 @@ input {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 2;
 }
 
 #portrait-text {
@@ -246,20 +247,20 @@ input {
 }
 
 @media screen and (max-width: 600px) {
-  #land-scape{
-  display:none;
+#land-scape{
+display:none;
+}
+#portrait{
+  display:block;
+}
+}
+
+@media screen and (max-height: 200px) {
+  #portrait-text{
+    display:none;
   }
   #portrait{
     display:block;
-  }
-  }
-  
-  @media screen and (max-height: 200px) {
-    #portrait-text{
-      display:none;
-    }
-    #portrait{
-      display:block;
       background-color: rgba(0, 0, 0);
-    }
-    }
+  }
+  }
