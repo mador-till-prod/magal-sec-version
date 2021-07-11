@@ -139,8 +139,9 @@ input {
   border-radius: 2vw;
   text-align: center;
   border-color: transparent;
-  margin-right: 2vw;
-  margin-top: 20vh;
+margin-top: 20vh;
+    margin-right: 2vw;
+    padding: 1vw;
 }
 
 #main-instructions-question{
