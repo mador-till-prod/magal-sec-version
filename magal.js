@@ -1,4 +1,4 @@
-const CODE = ["2458","ממג", "המנון", "סמל", "דגל"];
+const CODE = ["2458","ממג", "המנון", "סמל המדינה", "דגל"];
 var elem = document.querySelector("html");
 
 //load event
